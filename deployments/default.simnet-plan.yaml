@@ -65,6 +65,11 @@ plan:
             path: contracts/iot-integration.clar
             clarity-version: 2
         - emulated-contract-publish:
+            contract-name: produce-marketplace
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/produce-marketplace.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: resource-allocation
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/resource-allocation.clar
