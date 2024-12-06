@@ -55,6 +55,11 @@ plan:
             path: contracts/crop-management.clar
             clarity-version: 2
         - emulated-contract-publish:
+            contract-name: investment-token
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/investment-token.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: iot-integration
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/iot-integration.clar
